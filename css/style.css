@@ -1,0 +1,737 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 15%;
+    width: 25%;
+}
+.logo img{
+    height: 60%;
+    width: 80%;
+
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.navbar ul{
+    list-style: none;
+   
+    
+
+}
+.navbar li{
+    float: left;
+    color: black;
+    
+   
+
+}
+.navbar a{
+    text-decoration: none;
+    padding: 8px 12px;
+    color: black;
+  
+    
+}
+.navbar button{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.left{
+    background-color: rgb(255, 0, 98);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    
+    
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 30%;
+}
+.first h1{
+    color: black;
+    font-size: 400%;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+}
+.first p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  
+  
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInRight; 
+    animation-duration: 2s; 
+  }
+  .align p{
+    position: absolute; 
+    bottom: 0; 
+    left: 20px;  
+    transform: rotate(-90deg); 
+    transform-origin: bottom left;
+    font-size: 28px; 
+    color: white;
+    margin-left: 48%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  .right {
+    margin: 0;
+    height: 100vh;
+    width: 50%; 
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 12s infinite; 
+  }
+
+  @keyframes slideshow {
+    0% { background-image: url('/images/main2.jpg'); }
+    25% { background-image: url('/images/main8.jpg'); }
+    50% { background-image: url('/images/robotics.jpg'); }
+    75% { background-image: url('/images/workshop6.jpg'); }
+  }
+  .container{
+    height: 57%;
+    width: 42%;
+    background-color: white;
+    color: black;
+    margin-top: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container h4{
+    margin-bottom: 40%;
+    font-weight: 600;
+    
+  }
+  .container p{
+    margin-bottom: 60%;
+    font-weight: 600;
+
+  }
+  .page2{
+    height: 120vh;
+    width: 100%;
+    margin: 5%;
+   
+  }
+  .page2 p{
+    font-size: 20px;
+  }
+  .images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+
+
+  }
+  .images img{
+    height: 90%;
+    width: 70%;
+    margin-top: 30%;
+
+        animation: fadeInTopLeft 5s ;
+      
+      
+      @keyframes fadeInTopLeft {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+  
+    
+  }
+  .safcom{
+    height: 50%;
+    width: 33%;
+  
+  }
+  .google{
+    height: 50%;
+    width: 33%;
+    
+  }
+  .mkopa{
+    height: 50%;
+    width: 33%;
+   
+  }
+  .kra{
+    height: 50%;
+    width: 33%;
+   
+  }
+  .andela{
+    height: 50%;
+    width: 33%;
+    
+  }
+.second{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5%;
+
+}
+.second img{
+  height: 70%;
+  width: 70%;
+  color: blue;
+}
+.third{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.third img{
+  height: 20%;
+  width: 20%;
+}
+.hae{
+  display: flex;
+  flex-direction: row;
+}
+.too{
+  display: flex;
+  flex-direction: row;
+}
+.HAE{
+  margin-right: 15%;
+}
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInBottomRight; 
+  animation-duration: 5s; 
+}
+.page3{
+  height: 155vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container2{
+  display: flex;
+
+  gap: 20px;
+  justify-content: center;
+  margin-left: 20%;
+  padding: 10px;
+
+}
+.statement{
+  font-weight: 600;
+  width: 30%;
+  font-size: 25px;
+}
+.explanation{
+  width: 70%;
+  color: rgba(128, 128, 128, 0.692);
+}
+.page3 h1{
+  margin-left: 10%;
+}
+.page3 p{
+  margin-left: 10%;
+  font-size: 15px;
+  font-size: 20px;
+}
+.page3 a{
+  color: tomato;
+  font-size: 25px;
+}
+.page3 button{
+  border: none;
+}
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInTopLeft;
+  animation-duration: 2s; 
+}
+.page4{
+  height: 100vh;
+  width: 100%;
+}
+
+.photos{
+  height: 90%;
+  width: 100%;
+}
+.pics{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.pics img{
+  height: 80%;
+  width: 90%;
+  border-radius: 10px;
+}
+.pictures{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.pictures img{
+  height: 80%;
+  width: 90%;
+  border-radius: 10px;
+}
+.two {
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 8px; 
+}
+.text-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.one {
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 8px; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px; 
+}
+
+.image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.three {
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.four{
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.five {
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.six {
+  position: relative;
+  width: 50%; 
+  margin: auto;
+}
+.overlay a{
+  text-decoration: none;
+  color: black;
+}
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInUp; 
+  animation-duration: 20s; 
+}
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInDown; 
+  animation-duration: 20s; 
+}
+.page5{
+  height: 150vh;
+  width: 100%;
+  margin-top: 25%;
+  
+}
+.container3{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+
+}
+.container3 p{
+  color: black;
+  font-size: 130%;
+  font-weight: 380;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.first-div {
+  position: sticky;
+  top: 0;
+  
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moving-div {
+  
+  margin-left: 10px;
+  padding: 20px;
+  flex-grow: 1;
+  height: 200px;
+}
+.first-div button{
+  background-color: black;
+  color: white;
+  border: none;
+  height: 8%;
+  width: 48%;
+
+}
+.page6{
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/demo-digital-agency-bg-01.jpg);
+  background-size: cover;
+  
+  
+}
+.page6 h1{
+  color: white;
+  margin-left: 5%;
+  justify-content: center;
+  font-size: 300%;
+  font-weight: 380;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  
+  
+}
+.you{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30%;
+  margin-right: 24%;
+
+}
+.come p{
+  color: white;
+  font-size: 130%;
+  font-weight: 380;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+   
+
+
+}
+.here p{
+  color: white;
+  font-size: 130%;
+  font-weight: 380;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  
+
+}
+.page7{
+  height: 160vh;
+  width: 100%;
+}
+.page7 a{
+  text-decoration: none;
+  color: white;
+}
+.startup{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.startup img{
+  height: 60%;
+  width: 90%;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-item {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 60%;
+  background-color: rgb(255, 0, 98);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-item:hover .overlay-div {
+  opacity: 0;
+}
+
+.image-item:hover .image {
+  opacity: 1;
+}
+.container4{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 40%;
+}
+
+.sliding-content {
+  display: flex; 
+  width: 55%;
+  position: relative;
+  overflow: hidden; 
+}
+
+.slide {
+  opacity: 0;
+  transform: translateX(100%); 
+  animation: slideInFromRight 12s ease-in-out forwards; 
+  margin-right: 20px; 
+  font-size: 18px;
+}
+
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); 
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+  30% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%); 
+  }
+}
+
+
+.slide:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+  animation-delay: 4s; 
+}
+
+.slide:nth-child(3) {
+  animation-delay: 8s; 
+}
+.page8{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.image2{
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.image2 img{
+  height: 50%;
+  width: 60%;
+}
+.page9{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.952);
+  background-image: url(/images/demo-conference-about-bg.png);
+  background-size: cover;
+  color: white;
+}
+.container5{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-left: 20%;
+  padding: 10px;
+  flex-direction: row;
+  margin-right: 15%;
+  align-items: start;
+}
+
+.container5 h1{
+  font-size: 150%;
+}
+.container5 p{
+  color: grey;
+}
+.container5 a{
+  color: grey;
+
+}
+.finally{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  font-size: 100%;
+
+
+}
